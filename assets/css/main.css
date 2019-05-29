@@ -3,7 +3,133 @@
 @import url('variables.css');
 @import url('base.css');
 
-@import url('components/flex-grid.css');
 @import url('components/buttons.css');
 @import url('components/forms.css');
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold.woff2') format('woff2'),
+         url('roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular.woff2') format('woff2'),
+         url('roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#active{
+    color: #30C578;
+    font-weight: bold;
+}
+
+/*
+
+    HOMEPAGE OPMAAK
+
+*/
+
+p{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+}
+header{
+    margin-top: 150px;
+}
+.col-lg-2 nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+.col-lg-2 nav ul{
+    margin-top:  30px;
+}
+.col-lg-2 nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'robotoregular', sans-serif;
+}
+
+.col-lg-2 nav ul li a:hover{
+    text-decoration: none;
+    color: #30C578;
+}
+#nav_links{
+    text-align: right;
+    margin-right: 20px;
+}
+#nav_rechts{
+    margin-left: 5px;
+}
+
+header .col-lg-2, header .col-md-auto {
+    padding-bottom: 20px;
+    margin-bottom: 75px;
+    border-bottom: 2px solid #30C578;
+}
+#homepageh2{
+    margin-top: 50px;
+    text-align: center;
+
+}
+#homepageh2 a{
+    color: black;
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'robotoregular', sans-serif;
+
+}
+#homepageh2 a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+main{
+    margin-top: 75px;
+}
+
+main .col-sm-8 h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'robotobold', sans-serif;
+    font-size: 30px;
+}
+main .col-sm-8 p{
+    font-size: 14px;
+    color: #5B5050;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-bottom: 2px solid #30C578;
+    padding-bottom: 50px;
+}
+
+main .col-sm-4 figure img{
+    width: 100%;
+    
+}
+footer{
+    background: #30C578;
+    margin-top: 75px;
+}
+footer h3{
+    color: white;
+    font-size: 18px;
+}
+footer i{
+    margin-left: 12px;
+    color: black;
+    
+}
+footer .row{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer .col img{
+    width: 50%;
+}
 
